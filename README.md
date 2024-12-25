@@ -33,7 +33,7 @@ This project focuses on creating a custom AI-powered chatbot for any website. Th
 
 ### Prerequisites
 
-Ensure you have Python 3.8+ installed. Install the required libraries using the following commands:
+ Python 3.8+ installed. Install the required libraries using the following commands:
 
 ```bash
 pip install langchain langchain-community
@@ -42,21 +42,6 @@ pip install openai tiktoken
 pip install faiss-cpu unstructured
 pip install numpy==1.24.4 nltk==3.9.1
 ```
-
-## Usage
-
-1. **Install Dependencies**:
-   Ensure all necessary packages are installed as described in the prerequisites.
-
-2. **Run the Notebook**:
-   Open the `Custom_Chatbot_for_any_website.ipynb` notebook and execute the cells step by step to:
-
-   - Extract text from website pages.
-   - Generate embeddings and store them in the FAISS vector database.
-   - Query the chatbot and generate responses using LLMs.
-
-3. **Customize for Your Website**:
-   Replace the sitemap URL in the notebook with the URL of your desired website to tailor the chatbot to your needs.
 
 ## Key Libraries and Tools
 
