@@ -29,7 +29,7 @@ This project focuses on creating a custom AI-powered chatbot for any website. Th
 - Vector storage and retrieval with FAISS vector database.
 - Seamless integration of query processing with LLMs.
 ## Architecture:
-![Project Structure](assets/project_structure.png)
+![Project Structure](project_structure.png)
 ## Installation
 
 ### Prerequisites
